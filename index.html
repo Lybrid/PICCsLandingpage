@@ -1,136 +1,159 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <title>Product Landing Page</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css"
+    integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+  <title>Document</title>
 </head>
 
-<body class="body">
-  <nav id="nav-bar">
+<body class="container">
+
+  <nav class="rounded" id="nav-wrapper">
     <ul>
-      <li><a href="#about-piccs" id="nav-link">About</a></li>
-      <li><a href="#cost" id="nav-link">Cost</a></li>
-      <li><a href="#time" id="nav-link">Time</a></li>
+      <div class="btn" id="link-wrapper">
+        <li><a href="#services" id="nav-link">Services</a></li>
+        </lis>
+      </div>
+      <div class="btn" id="link-wrapper">
+        <li><a href="#about-Us" id="nav-link">About</a></li>
+        </lis>
+      </div>
+      <div class="btn" id="link-wrapper">
+        <li><a href="WhyUs.html" id="nav-link">Why Us</a></li>
+        </li>
+      </div>
+      <div class="btn" id="link-wrapper">
+        <li><a href="#contact" id="nav-link">Contact</a></li>
+        </li>
+      </div>
     </ul>
   </nav>
 
-  <header id="header">
-    <img
-      id="header-img"
-      src="https://i.ibb.co/YDXGRCs/LOGO.jpg"
-      alt="LOGO"
-      border="0"
-    />
-  </header>
+  <!--input logo here-->
 
-  <div class="why-us">
-    <h2>Why Choose Us?</h2>
+  <div class="contaier-fluid" id="logo-container text-center">
+    <img class="img-fluid" id="logo-img" src="logoimg.jpg" alt="image of PICCs Plus's logo">
   </div>
 
-  <div class="flex-wrapper">
-    <div class="row">
-      <div class="column">
-        <div class="first-column">
-          <p>
-            <h3>PICCS PLUS:<br /></h3>
-            Is a company dedicated to the safety and well-being of every
-            patient. Efficiency is our number one goal with every service we
-            deliver. PICCs PLUS evaluates all services performed on a monthly
-            basis to assess reliability of delivery method selected and to learn
-            from encountered difficulties. PICCs PLUS standards of care are
-            derived from direction of The Infusion Nurse Society and Association
-            of Vascular Access guidance. All of our highly trained nurses are
-            members of these groups and are kept up-to-date with all the current
-            and changing policies.
-            <a id="about-piccs"></a>
-          </p>
-        </div>
+  <!-- adding main content for this page here-->
+  <div class="container-fluid text-center">
+    <h3>PICCs Plus Services</h3>
+  </div>
+  <div class="container-fluid" id="services-container">
+    <ul>
+      <div>
+        <li>PICC Placement</li>
       </div>
-      <div class="column">
-        <div class="second-column">
-          <p>
-            <h3>Cost Containment:<br /></h3>
-            With the changes in Medicare, Medicaid, and private insurance
-            reimbursements, the ideal outcome is to keep the patient in your
-            facility to receive care and therapy, PICCs PLUS strives to achieve
-            this objective. PICCs PLUS nurses’ have extensive knowledge and
-            experience and can precisely select the best method to administer
-            the patients prescribed therapy, thereby reducing both time and
-            materials used; PICCs PLUS nurses maintain constant contact with the
-            pharmacies and the ordering physicians to ensure that the patient
-            receive the most effective and efficient method of delivery of their
-            prescribed therapy. PICCs PLUS nurses make the most efficient use of
-            patient’s medical history, medical ailments, dialysis data, and many
-            other aspects related to each patient before deciding on the best
-            type of vascular access to be used. Each patient is treated as an
-            individual with respect and always with their best interest
-            foremost.
-            <a id="cost"></a>
-          </p>
-        </div>
+      <div>
+        <li>PICC placement with Sherlock 3CG tip confirmation</li>
       </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="first-column">
-          <img class="image-one" src="supnurses1.jpg" />
-          <div class="aside">
-             <h1>Calls<br> 24/7</h1>
-          </div>
-        </div>
+      <div>
+        <li> Our nurses will contact your facility within 1 hour of receiving the
+          service request</li>
       </div>
-      <div class="column">
-        <div class="second-column">
-          <img class="image-one" src="supnurses2.jpg" />
-        </div>
+      <div>
+        <li> We have a quick response time of 2 to 3 hours from the time
+          service was requested
+        </li>
       </div>
-    </div>
-    <div class="row">
-      <div class="column">
-        <div class="first-column">
-          <p>
-            <h3>One Stop Shop:<br /></h3>
-            Our company’s name “PICCs PLUS” describes our mission, which is to
-            be more than just a PICC line company. From placing PICC lines,
-            midlines, peripheral IV’s, declots on existing lines, removing
-            existing venous access devices, replacing existing lines and even
-            repairing/replacing lines that other companies placed. We also offer
-            to provide in-services and education for your nurses. We are
-            available 24/7 to assist with issues relating to vascular access.
-          </p>
-        </div>
+      <div>
+        <li> Midline placement as needed</li>
       </div>
-      <div class="column">
-        <div class="second-column">
-          <p>
-            <h3>Time:<br /></h3>
-            PICCs PLUS has a standing policy to maintain an average of a 3-hour
-            response time or less. Our 3-hour response time starts the time the
-            pharmacy or facilities call the order in. Granted that there are
-            situations that cause delays such as traffic, weather, or other
-            unforeseeable circumstances, PICCs PLUS nurses will directly deal
-            with the requiring facility to keep them informed and give them an
-            approximate ETA.
-            <a id="time"></a>
-          </p>
-          >
-        </div>
+      <div>
+        <li> Peripheral IV placement with each PICC for immediate vascular
+          access
+        </li>
       </div>
-    </div>
+      <div>
+        <li> Implanted port access and de-access; instruction to RNs on
+          access/de-access</li>
+      </div>
+      <div>
+        <li> PICC repositioning
+        </li>
+      </div>
+      <div>
+        <li> Catheter occlusion assessment and resolution: Declotting or
+          PICC replacement as needed</li>
+      </div>
+      <div>
+        <li> Central catheter blood draw as needed
+        </li>
+      </div>
+    </ul>
+  </div>
+  <br>
+
+  <div>
+    <img class="img-fluid" id="" src="supnurses2.jpg">
+  </div>
+  <br>
+  <!--About us layout-->
+  <div class="contaier-fluid text-center" id="about-Us">
+    <h2 id="about-Us">About PICCs Plus</h2>
   </div>
 
-  <div id="video">
-    <video width="320" height="240" controls>
-      <source src="suppvideo.mp4" type="video/mp4">
-      Your browser does not support the video tag.
-    </video>
-  </div>
+  <div class="container-fluid text-center" id="about-us-container">
+    <p>
+      PICCs Plus delivers dependable, reliable central and
+      peripheral vascular access placement services. Our
+      specially trained and experienced RNs place PICCs with
+      the use of ultrasound guidance.
+      <br>
+      <br>
 
-  <div id="form">
+      Each PICCs Plus nurse has had extensive training in the
+      placement of Peripherally Inserted Central Catheters
+      and midline catheters, catheter assessment, catheter
+      declotting, central catheter removal, and the placement
+      of peripheral IVs.
+      <br>
+      <br>
+
+      Our service area extends to a 100 mile radius of the
+      Dallas Fort Worth International Airport. We are also
+      looking to expand our service area to include Austin,
+      Tyler, and Lubbock areas.
+      You can contact us 24 hours a day, 7 days a week
+      throughout the year.
+      <br>
+      <br>
+    </p>
+  </div>
+  <!--contact form layout-->
+  <div class="container-fluid text-center" id="contact">
     <form>
-      <label><h3>Subscribe with your email below for more information.</h3></label><br>
-      <input type="text" value="email" placeholder="Email">
-      <input formaction="https://www.freecodecamp.com/email-submit" type="submit" value="Subscribe">
+      <input class="form-control bg-light" type="text" placeholder="Full Name">
+      <input class="form-control bg-light" type="text" placeholder="Email">
+      <div class="container">
+        <textarea class="form-control bg-light" name="comment section" id=""></textarea>
+      </div>
+      <br>
+      <submit class="btn btn-primary btn-lg" type="submit"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+          height="16" fill="currentColor" class="bi bi-envelope-fill" viewBox="0 0 16 16">
+          <path
+            d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 
+            4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
+        </svg> Send</submit>
     </form>
   </div>
+  <br>
+
+  <a href="#nav-wrapper" id="arrow-btn">
+  <div class="btn btn-success btn-sm container-fluid" >
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-arrow-up"
+      viewBox="0 0 16 16">
+      <path fill-rule="evenodd"
+        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+    </svg>
+  </div>
+  </a>
 
 </body>
+
+</html>

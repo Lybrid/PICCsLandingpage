@@ -1,119 +1,95 @@
-global {
-  font-size: 100%;
+body {
+  max-width: 1680px;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
 }
 
-#nav-bar {
-  text-align: center;
-  position: fixed;
-  background-color: #4169e1;
-  width: 100%;
-  height: 50px;
-  opacity: 75%;
-}
-
-nav li {
-  display: inline-block;
-}
-
-ul {
+ul li {
   list-style: none;
 }
 
 li a {
   text-decoration: none;
   color: black;
-  padding: 50px;
 }
 
-a:hover {
-  color: white;
+#nav-link {
+  text-decoration: none;
+  color: whitesmoke;
 }
-
-.why-us {
-  text-align: center;
-}
-#header-img {
-  display: block;
-}
-
-/*supporting images*/
-.image-one {
-  max-width: 100%;
-  height: 500px;
-}
-
-/* Flexbox layout*/
-
-.flex-wrapper {
-  margin: 10px;
+/* creating navbar layout */
+#link-wrapper {
+  display: inline-block;
   justify-content: center;
-}
-
-.row {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  max-width: 100%;
-}
-
-.column {
-  display: flex;
-  flex-direction: column;
-  flex-basis: 100%;
-  flex: 1;
-}
-
-.first-column {
-  max-width: 100%;
-}
-
-.second-column {
-  max-width: 100%;
-}
-
-.first-column p {
-  text-align: start;
-}
-
-.second-column p {
-  text-align: start;
-}
-
-.aside {
-  float: right;
-  margin: 100px 350px 0px 0px;
-  font-size: x-large;
-  font-family: serif;
-}
-
-#form {
+  height: auto;
   text-align: center;
 }
-
-#video {
-  text-align: center;  
+#nav-wrapper {
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(26, 111, 240);
+  border-radius: 1%;
+  gap: 1.5rem;
 }
 
-/*media queries*/
+/* applying some hover animations */
 
-@media screen and (max-width: 1800px) {
-  .aside {
-    display: none;
-  }
+#link-wrapper:hover {
+  background-color: white;
 }
+
+#nav-link:hover {
+  color: black;
+}
+
+/* Logo image */
 
 @media screen and (max-width: 500px) {
-  .image-one {
-    display: none;
+  #logo-container {
+    width: 300px;
+    height: 200px;
   }
 }
 
-@media screen and (max-width: 1130px) {
-  #nav-bar {
-    justify-content: center;
-    position: fixed top;
-    background-color: #4169e1;
-    width: 100%;
-    height: auto;
-  }
+/* Services page layout */
+
+#services-container {
+  font-size: 1rem;
+  font-weight: 600;
+  background-color: rgba(35, 101, 241, 0.308);
+  border-radius: 1%;
+  padding: 10px;
+}
+
+#services-container ul li {
+  list-style: disc;
+  margin-bottom: 20px;
+}
+
+/* About PICCs Plus layout*/
+
+#about-us-container {
+  background-color: rgba(226, 226, 226, 0.377);
+  border-radius: 1%;
+  font-size: 1rem;
+  margin: 0px;
+  padding-top: 15px;
+}
+
+/* Why choose us page layout starting with bg color*/
+
+#bg-color-container>div:nth-child(odd) {
+background-color: rgba(35, 101, 241, 0.308);
+}
+
+#bg-color-container>div:nth-child(even) {
+  background-color: rgba(226, 226, 226, 0.377);
+}
+
+#bg-color-container {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
 }
