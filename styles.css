@@ -1,5 +1,5 @@
 body {
-  max-width: 1680px;
+  max-width: 1200px;
   margin: 0px;
   padding: 0px;
   border: 0px;
@@ -92,4 +92,17 @@ background-color: rgba(35, 101, 241, 0.308);
   margin: 0px;
   padding: 0px;
   font-size: 1rem;
+}
+
+/* footer container */
+
+#footer-container {
+  margin: 0px;
+  padding: 0px;
+  font-size: .9rem;
+}
+
+#footer-container p a {
+  font-style: none;
+  color: white;
 }
